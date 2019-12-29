@@ -1,8 +1,8 @@
 {
   "name": "set-clock-interval",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Uses a clock to set intervals",
-  "main": "/lib/setClockInterval.js",
+  "main": "./lib/setClockInterval.js",
   "repository": "https://github.com/Lambdah/set-clock-interval",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
