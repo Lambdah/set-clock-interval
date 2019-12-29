@@ -1,0 +1,16 @@
+{
+  "name": "set-clock-interval",
+  "version": "1.0.0",
+  "description": "Uses a clock to set intervals",
+  "main": "/lib/setClockInterval.js",
+  "repository": ,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lambdah",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
