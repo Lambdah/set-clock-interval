@@ -1,6 +1,6 @@
-#Set Clock Interval
+# Set Clock Interval
 Set an interval based on the local time for callbacks
-#####Usage
+##### Usage
 ```
 const setClockInterval = require('set-clock-interval')
 setClockInterval('HH:MM:SS', callback, params1,params2,..)
@@ -12,8 +12,8 @@ server's clock.
 The callback is the function that is to be called, and params are the callback's
 parameters.
 
-#####Example
-```
+##### Example
+```javascript
 const setClockInterval = require('set-clock-interval')
 
 function add(one, two, three){
@@ -26,7 +26,7 @@ At 3 am system clock, the function 'add' will be called with
 the parameters 1, 2, and 3. The function 'add' will keep being
 called at 3 am until the program is cancelled.
 
-```
+```javascript
 const setClockInterval = require('set-clock-interval')
 
 function sayHello(){
@@ -39,3 +39,6 @@ clearInterval(hello)
 At 8:30 pm system clock, the function 'sayHello' will be called once.
 The clearInterval stop the execution of the interval from being called every 24 hours,
 but does not clear the first execution.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
